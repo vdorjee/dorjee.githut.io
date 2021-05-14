@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dorjee electronic website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="image/vishal22.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hidemenu()"></i> 
+                    <ul>
+                        <li><a href="index.html" target="_blank">HOME</a></li>
+                        <li><a href="services.html" target="_blank">SERVICES</a></li>
+                        <li><a href="gallery.html" target="_blank">GALLERY</a></li>
+                        <li><a href="contacts.html" target="_blank">CONTACT</a></li>
+                        <li><a href="about.html" target="_blank">ABOUT</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars"  onclick="showmenu()"></i>           
+        </nav>
+       <h1>About Us</h1>
+    </section>
+    <!------about us contant-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> Get Expert Advice and Curated Content on Top10Quest.com.</h1>
+                <p>Search Ddos Service Provider,
+                Top Results From Trusted Resources.
+                Search Ddos Service Provider, 
+                Get Expert Advice and Curated Content on Top10Quest.com. 
+                Find in Seconds. Find All Info You Want. </p>
+                <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-us">
+                <img src="image/v4.jpg">
+
+            </div>
+        </div>
+    </section>
+
+    <!------footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Get Expert Advice and Curated Content on Top10Quest.com.<br>
+        Find in Seconds. Find All Info You Want. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+   <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------javascript for toggle menu----->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
